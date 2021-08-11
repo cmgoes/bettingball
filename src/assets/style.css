@@ -1,0 +1,52 @@
+/* DEV */
+
+.t {
+    border: 1px solid red;
+}
+
+body {
+    /* background-color: #161c27; */
+    /* color: #fff; */
+    /* background-image: url('../assets/bloqbg.png'); */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Layout */
+.q-header {
+    border-color: hsl(0deg 0% 100% / 12%) !important;
+}
+
+.container {
+    width: 90%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 90%;
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: 100%;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+}
+
+.nav-btn .on-right {
+    margin-left: 0 !important;
+}
+
+@media (max-width: 650px) {
+}
+
+@media (max-width: 450px) {
+}
